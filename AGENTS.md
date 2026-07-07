@@ -51,7 +51,7 @@ submission.zip
 - Assign actual development work inside `channel/`, `kakaopay/`, and `musinsa/` to separate subagents.
 - Each subagent should treat its assigned folder as an independent project root.
 - Subagents must stay within their assigned folder unless the orchestrator explicitly coordinates a cross-folder change.
-- Subagents must use only their assigned folder's `log-hooks/` setup for logging.
+- Subagents must use only their assigned folder's `.codex/hooks.json` and `log-hooks/` setup for logging.
 
 ## Logging Hooks
 
@@ -59,6 +59,10 @@ submission.zip
   - `channel/log-hooks/`
   - `kakaopay/log-hooks/`
   - `musinsa/log-hooks/`
+- Each work folder must also own the active Codex hook file:
+  - `channel/.codex/hooks.json`
+  - `kakaopay/.codex/hooks.json`
+  - `musinsa/.codex/hooks.json`
 - When running work for a specific folder, use that folder's hook setup so logs are written separately for that work area.
 - Logs from one folder must not be reused as logs for another folder.
 - The repository root should not own a shared `log-hooks/` directory.
