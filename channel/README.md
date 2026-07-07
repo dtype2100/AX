@@ -8,7 +8,7 @@ Channel ALF Planner is a skill-only Codex plugin for e-commerce CX leads, suppor
 
 Channel Talk's public AI documentation centers on reducing repetitive inquiries so teams can focus on important work. Its FAQ guide says ALF can answer from registered FAQ content and recommends FAQ topics from open chats. Its Rule, Knowledge, Task, and Analytics guides show the setup work spans structured knowledge, rules, automated tasks, tags, routing, and continuous measurement.
 
-That makes pre-automation planning the narrow public problem: support teams need to decide what to add to FAQ/Knowledge, what to automate with ALF Rules or Tasks, and what should remain human-reviewed. The research notes cite the Channel Talk AI, FAQ, Rule, Knowledge, Task, Analytics, and homepage sources, plus supporting CX and human-AI support references.
+That makes pre-automation planning the narrow public problem: support teams need to decide what to add to FAQ/Knowledge, what to automate with ALF Rules or Tasks, and what should remain human-reviewed. The research notes cite the Channel Talk AI, FAQ, Rule, Knowledge, Task, Analytics, homepage, and verified AX video context, plus supporting CX and human-AI support references.
 
 ## How does the plugin work?
 
@@ -30,7 +30,7 @@ AI is used as a planning assistant over user-provided support material. It reads
 
 ## How was the plugin verified?
 
-This logged pass verified the Channel-only working root, hook configuration, existing `logs/codex/` files, plugin manifest JSON, skill frontmatter, requested source layout, and consistency between `research.md`, the README, and the skill output contract. The skill is intentionally text-only, so the synthetic-input check focused on whether the instructions cover shipping, cancellation, exchange/refund, stock, payment, damaged-item, and escalation cases with the required output sections. `submission.zip` has not been created yet.
+This logged pass verified the Channel-only working root, hook configuration, existing `logs/codex/` files, plugin manifest JSON, skill frontmatter, requested source layout, and consistency between `research.md`, the README, and the skill output contract. The skill is intentionally text-only, so the synthetic-input check focused on whether the instructions cover shipping, cancellation, exchange/refund, stock, payment, damaged-item, and escalation cases with the required output sections. `submission.zip` was recreated with only `src/`, `README.md`, and `logs/` at the zip root.
 
 ## Evidence
 
@@ -41,6 +41,7 @@ This logged pass verified the Channel-only working root, hook configuration, exi
 - Channel Talk Task guide: https://docs.channel.io/help/en/articles/Task--2a16be8b
 - Channel Talk Chats analytics guide: https://docs.channel.io/help/en/articles/analytics-chats-10d6b120
 - Channel Talk homepage: https://channel.io/us
+- Channel Talk AX video context: https://www.youtube.com/watch?v=5iRf37Z8Wd4
 - Vogue Business CX automation context: https://www.voguebusiness.com/technology/cx-customer-service-ai-zendesk-kustomer-powerfront
 - Human-AI customer support method reference: https://arxiv.org/abs/2301.12158
 - E-commerce message-to-question method reference: https://arxiv.org/abs/2401.09785

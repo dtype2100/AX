@@ -13,6 +13,7 @@ Kakao Pay Securities publicly positions its service around accessible investing,
 That creates a narrow, verifiable support problem: public investment text can be hard for beginner investors to understand, and operators need consistent educational explanations that surface risk and uncertainty without turning into recommendations.
 
 Supporting evidence is recorded in `research.md`, including Kakao Pay Securities official material, SEC Investor.gov risk education, and method references for grounded generation.
+The verified public video context also supports a narrow AI 상담-assist workflow focused on explainable uncertainty, not personalized investment advice.
 
 ## How does the plugin work?
 
@@ -45,7 +46,7 @@ Verification for this stage checked that:
 - A sample explanation prompt was checked against the required output sections: plain-language explanation, key terms, risk checklist, uncertainty notes, support draft, and notice.
 - A sample advice prompt was checked against the refusal rules for buy/sell/hold, target price, market timing, and personalized allocation requests.
 
-`submission.zip` has not been created yet.
+`submission.zip` was recreated with only `src/`, `README.md`, and `logs/` at the zip root.
 
 ## Notice
 

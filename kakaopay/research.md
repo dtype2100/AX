@@ -12,6 +12,15 @@ Primary user: Kakao Pay Securities investor education, customer support, content
 
 Situation: the operator has public source text, such as a product notice, research excerpt, FAQ, risk disclosure, or investor education page, and needs a consistent support-oriented explanation for beginner investors.
 
+## Video Context
+
+- Title: 투자 업계에서 AI를 활용하는 방법과 원하는 인재 | AX 인재전쟁 6화 카카오페이증권.
+- URL: https://www.youtube.com/watch?v=aBuoojGjyf4
+- Source type: public YouTube video from 조코딩 JoCoding; YouTube oEmbed title, author, and provider verified by the root orchestrator on 2026-07-08.
+- Transcript availability: Korean auto-generated transcript was fetched from public YouTube via `youtube_transcript_api` by the root orchestrator on 2026-07-08. Do not save or quote the full transcript.
+- Relevant summary: Kakao Pay Securities frames its work around helping beginner investors invest and manage assets more easily. The discussion covers AI support for phone/chat 상담, including helping 상담 staff find information and improve customer-response quality. It also describes investor buy/sell support as an explainable support problem: the useful output is a logical process with enough information to understand uncertainty, not a mathematical optimum or personalized recommendation.
+- Finance-safety implication: use the video only as high-level context for explainable, educational support. Keep the workflow source-bound and non-personalized, with no buy/sell/hold, target-price, timing, or allocation advice.
+
 ## Evidence Map
 
 | Claim | Source | Reliability | Plugin implication |
@@ -46,15 +55,11 @@ Situation: the operator has public source text, such as a product notice, resear
 
 ## Open Risks
 
-- The brief's YouTube URL, https://www.youtube.com/watch?v=aBuoojGjyf4, was not publicly fetchable through the available browser/search path in this phase, so it remains unanalyzed.
 - The exact Kakao Pay Securities official page URLs for some customer-center subsections may require JavaScript navigation; the main official site was usable and enough for the first hypothesis.
 - Future README wording should be reviewed against Korean financial advertising and investor-protection constraints before packaging.
-- The plugin should be verified on examples covering stock news, fund/product notices, and research excerpts before `submission.zip`.
+- Future plugin checks could add more examples covering stock news, fund/product notices, and research excerpts.
 
-## Recommended Next Workflow
+## Maintenance Notes
 
-1. Define the minimal skill name and output contract: plain-language summary, key terms, risk checklist, uncertainty notes, source-grounded support draft, and refusal rules.
-2. Create `src/.codex-plugin/plugin.json` and one skill at `src/skills/<name>/SKILL.md`.
-3. Draft `README.md` from this evidence map and the five required answers.
-4. Verify the skill with public sample inputs and confirm it refuses investment advice.
-5. Package only after logs, README, source, and behavior are consistent.
+- Keep README claims, plugin behavior, and evidence sources aligned when changing the skill.
+- Do not save or quote the full YouTube transcript; keep only concise paraphrased notes.

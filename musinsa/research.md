@@ -33,9 +33,16 @@ Situation: the user has partial inputs such as a category trend, search spike, b
 - Agent Skills define a lightweight folder with a required `SKILL.md`, metadata, instructions, and optional scripts/references/assets. Reference: Agent Skills Overview, https://agentskills.io/.
 - For this submission, the simplest structure should be one Codex plugin with `src/.codex-plugin/plugin.json` and one skill at `src/skills/musinsa-md-brief/SKILL.md`. No MCP server is needed unless a later phase requires live APIs.
 
+## Video Context
+
+- Title: "무신사의 AI 시대 전략과 인재상 | AX 인재전쟁 3화 무신사"; verified from YouTube oEmbed by the root orchestrator on 2026-07-08.
+- URL: https://www.youtube.com/watch?v=OLAWeIuiD5Y
+- Source type: public YouTube video from 조코딩 JoCoding; provider YouTube.
+- Transcript availability: Korean auto-generated transcript fetched from public YouTube via `youtube_transcript_api` by the root orchestrator on 2026-07-08. Do not save or quote the full transcript.
+- Summary aligned to plugin problem: the video frames Musinsa as a fashion/beauty commerce platform connecting brands and customers, discusses one-core multi-platform strategy and consolidation of fragmented member, product, and data systems, and emphasizes turning broad, complex problems into clear decisions that help Musinsa discover brands customers will like.
+
 ## Open Risks
 
-- The provided YouTube URL, https://www.youtube.com/watch?v=OLAWeIuiD5Y, was not analyzable through the available browser/search path in this phase. Do not cite it until a transcript or accessible public page is verified.
 - Official Musinsa newsroom claims are strong for company direction, but some are press-release claims. The README should distinguish observed public facts from plugin hypotheses.
 - No private Musinsa data is available. The plugin must work from user-supplied inputs and public evidence, not pretend to access internal metrics.
 - Avoid overbuilding: a skill-only workflow is enough for the submission unless later verification proves a script is necessary.

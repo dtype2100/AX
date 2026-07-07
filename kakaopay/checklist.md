@@ -14,7 +14,7 @@
 
 ## 1. Research
 
-- [ ] Analyze <https://www.youtube.com/watch?v=aBuoojGjyf4>.
+- [x] Analyze <https://www.youtube.com/watch?v=aBuoojGjyf4>.
 - [x] Find one Kakao Pay Securities official source about beginner investing, investor education, AI support, product explanation, or customer support.
 - [x] Find one trustworthy supporting source about investor education, financial consumer understanding, explainable finance AI, or risk disclosure.
 - [x] Review one arXiv or academic method reference.

@@ -14,6 +14,14 @@ Primary user: e-commerce CX lead, support operations manager, or Channel Talk im
 
 Situation: preparing or improving ALF/FAQ/Workflow setup from public-facing policy pages, support macros, product notes, and a small sample of anonymized inquiry text.
 
+## Video Context
+
+- Title: `"AI 툴을 많이 쓰는 게 중요한 게 아닙니다" 채널톡이 바라보는 AI 시대 인재 | AX 인재전쟁 4화 채널톡`
+- URL: https://www.youtube.com/watch?v=5iRf37Z8Wd4
+- Source type: public YouTube video requested by the assignment; YouTube oEmbed title verified on 2026-07-08 with author 조코딩 JoCoding and provider YouTube.
+- Transcript availability: Korean auto-generated transcript fetched from public YouTube via `youtube_transcript_api` on 2026-07-08. The transcript is not saved or quoted in full.
+- Relevant summary: Channel Talk frames its work around the enduring business problem of customer/company communication, including e-commerce customer 상담. The video emphasizes AI agents for commerce support problems, while arguing that AX skill is not about trying many tools; it is about understanding why a problem and tool were chosen, using even one tool well, and increasing talent density so a small team can solve larger company-scale work.
+
 ## Evidence Map
 
 | Claim | Source | Reliability | Plugin implication |
@@ -44,7 +52,6 @@ Situation: preparing or improving ALF/FAQ/Workflow setup from public-facing poli
 
 ## Open Risks
 
-- The provided YouTube URL, https://www.youtube.com/watch?v=5iRf37Z8Wd4, could not be verified through the available web fetch path in this phase. Do not mark video analysis complete until a transcript, title, or official accessible page is captured.
 - Channel Talk official sources support the candidate problem strongly, but they are product docs and marketing pages. Keep industry sources limited to broad context and do not cite them for Channel Talk-specific claims.
 - No private Channel Talk customer data should be used. Future tests should use synthetic or anonymized support snippets.
 - A skill-only plugin will not prove Channel Talk API integration. That is acceptable for the first submission if the workflow is explicitly an implementation-planning assistant.

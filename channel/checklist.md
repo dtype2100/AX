@@ -13,7 +13,7 @@
 
 ## 1. Research
 
-- [ ] Analyze <https://www.youtube.com/watch?v=5iRf37Z8Wd4>.
+- [x] Analyze <https://www.youtube.com/watch?v=5iRf37Z8Wd4>.
 - [x] Find one Channel Talk official source about support, AI, CX, or e-commerce.
 - [x] Find one trustworthy supporting source about support automation or CX operations.
 - [x] Review one arXiv or academic method reference.

@@ -44,5 +44,5 @@ Verification for this stage:
 - kept the plugin skill-only with `src/.codex-plugin/plugin.json` and `src/skills/musinsa-md-brief/SKILL.md`
 - aligned the README, plugin behavior, and evidence claims with `research.md`
 - dry-checked the skill against the public Musinsa vacation accessories and satin skirt trend examples from `research.md`
-
-`submission.zip` has not been created yet.
+- recorded the verified YouTube title, source, and transcript availability in `research.md` without quoting or saving the full transcript
+- recreated `submission.zip` with `src/`, `README.md`, and `logs/` at the zip root

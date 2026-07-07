@@ -33,7 +33,7 @@
 - [x] Read `channel/brief.md` in the Channel Talk session.
 - [x] Confirm the Channel Talk session working root is `channel/`.
 - [x] Confirm `channel/logs/codex/` receives the Channel Talk session log.
-- [ ] Analyze <https://www.youtube.com/watch?v=5iRf37Z8Wd4>.
+- [x] Analyze <https://www.youtube.com/watch?v=5iRf37Z8Wd4>.
 - [x] Find one Channel Talk official source.
 - [x] Find one trustworthy support/CX/e-commerce source.
 - [x] Create `channel/` evidence map.
@@ -52,7 +52,7 @@
 - [x] Read `musinsa/brief.md` in the Musinsa session.
 - [x] Confirm the Musinsa session working root is `musinsa/`.
 - [x] Confirm `musinsa/logs/codex/` receives the Musinsa session log.
-- [ ] Analyze <https://www.youtube.com/watch?v=OLAWeIuiD5Y>.
+- [x] Analyze <https://www.youtube.com/watch?v=OLAWeIuiD5Y>.
 - [x] Find one Musinsa official source.
 - [x] Find one trustworthy fashion commerce/data/recommendation source.
 - [x] Create `musinsa/` evidence map.
@@ -71,7 +71,7 @@
 - [x] Read `kakaopay/brief.md` in the Kakao Pay Securities session.
 - [x] Confirm the Kakao Pay Securities session working root is `kakaopay/`.
 - [x] Confirm `kakaopay/logs/codex/` receives the Kakao Pay Securities session log.
-- [ ] Analyze <https://www.youtube.com/watch?v=aBuoojGjyf4>.
+- [x] Analyze <https://www.youtube.com/watch?v=aBuoojGjyf4>.
 - [x] Find one Kakao Pay Securities official source.
 - [x] Find one trustworthy investor education/risk disclosure source.
 - [x] Create `kakaopay/` evidence map.

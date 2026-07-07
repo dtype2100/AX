@@ -13,7 +13,7 @@
 
 ## 1. Research
 
-- [ ] Analyze <https://www.youtube.com/watch?v=OLAWeIuiD5Y>.
+- [x] Analyze <https://www.youtube.com/watch?v=OLAWeIuiD5Y>.
 - [x] Find one Musinsa official source about platform strategy, brands, data, AI, search, or recommendation.
 - [x] Find one trustworthy supporting source about fashion commerce, trend detection, recommendation, or data integration.
 - [x] Review one arXiv or academic method reference.
