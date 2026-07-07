@@ -1,0 +1,44 @@
+{
+  "name": "ax-herkerton-local",
+  "interface": {
+    "displayName": "AX Herkerton Local"
+  },
+  "plugins": [
+    {
+      "name": "channel-alf-planner",
+      "source": {
+        "source": "local",
+        "path": "./channel/src"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "musinsa-md-brief",
+      "source": {
+        "source": "local",
+        "path": "./musinsa/src"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "kakaopay-investor-explainer",
+      "source": {
+        "source": "local",
+        "path": "./kakaopay/src"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
