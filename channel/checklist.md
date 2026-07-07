@@ -3,22 +3,22 @@
 ## 0. Baseline
 
 - [x] Treat `channel/` as the Channel Talk project root.
-- [x] Confirm `channel/.codex/hooks.json` is active for new work.
-- [x] Confirm logs are copied verbatim to `channel/logs/`.
-- [ ] Read `channel/brief.md`.
-- [ ] Confirm the active session working root is `channel/`.
-- [ ] Confirm root orchestration logs are not copied into `channel/logs/`.
+- [x] Confirm `.codex/hooks.json` is active for new work.
+- [x] Confirm logs are copied verbatim to `logs/`.
+- [x] Read `brief.md`.
+- [x] Confirm the active session working root is `channel/`.
+- [x] Confirm root orchestration logs are not copied into `logs/`.
 - [ ] Stop if logs are filtered, missing, or written elsewhere.
 - [ ] Exclude any failed, unlogged, mixed, or wrong-folder session from submission logs.
 
 ## 1. Research
 
 - [ ] Analyze <https://www.youtube.com/watch?v=5iRf37Z8Wd4>.
-- [ ] Find one Channel Talk official source about support, AI, CX, or e-commerce.
-- [ ] Find one trustworthy supporting source about support automation or CX operations.
-- [ ] Review one arXiv or academic method reference.
-- [ ] Review one GitHub/Codex/plugin structure reference.
-- [ ] Create an evidence map with claim, source, reliability tier, and plugin implication.
+- [x] Find one Channel Talk official source about support, AI, CX, or e-commerce.
+- [x] Find one trustworthy supporting source about support automation or CX operations.
+- [x] Review one arXiv or academic method reference.
+- [x] Review one GitHub/Codex/plugin structure reference.
+- [x] Create an evidence map with claim, source, reliability tier, and plugin implication.
 
 ## 2. Problem And Plugin
 

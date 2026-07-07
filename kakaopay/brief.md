@@ -8,7 +8,7 @@ Build one independent Codex plugin submission for Kakao Pay Securities. The fina
 
 - Treat `/Users/jinlee/ax_herkerton/kakaopay` as the only project root.
 - Do not edit `channel/`, `musinsa/`, or root planning files.
-- Before research or implementation, verify `kakaopay/.codex/hooks.json`, `kakaopay/log-hooks/tools/save_log.py`, and `kakaopay/logs/codex/`.
+- Before research or implementation, verify `.codex/hooks.json`, `log-hooks/tools/save_log.py`, and `logs/codex/`.
 - If logs are missing, mixed, copied, filtered, or written outside `kakaopay/`, stop and report the failure.
 
 ## Working Context

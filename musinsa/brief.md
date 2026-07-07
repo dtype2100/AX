@@ -8,7 +8,7 @@ Build one independent Codex plugin submission for Musinsa. The final `submission
 
 - Treat `/Users/jinlee/ax_herkerton/musinsa` as the only project root.
 - Do not edit `channel/`, `kakaopay/`, or root planning files.
-- Before research or implementation, verify `musinsa/.codex/hooks.json`, `musinsa/log-hooks/tools/save_log.py`, and `musinsa/logs/codex/`.
+- Before research or implementation, verify `.codex/hooks.json`, `log-hooks/tools/save_log.py`, and `logs/codex/`.
 - If logs are missing, mixed, copied, filtered, or written outside `musinsa/`, stop and report the failure.
 
 ## Working Context

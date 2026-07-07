@@ -30,15 +30,15 @@
 
 ## 2. Channel Talk
 
-- [ ] Read `channel/brief.md` in the Channel Talk session.
-- [ ] Confirm the Channel Talk session working root is `channel/`.
-- [ ] Confirm `channel/logs/codex/` receives the Channel Talk session log.
+- [x] Read `channel/brief.md` in the Channel Talk session.
+- [x] Confirm the Channel Talk session working root is `channel/`.
+- [x] Confirm `channel/logs/codex/` receives the Channel Talk session log.
 - [ ] Analyze <https://www.youtube.com/watch?v=5iRf37Z8Wd4>.
-- [ ] Find one Channel Talk official source.
-- [ ] Find one trustworthy support/CX/e-commerce source.
-- [ ] Create `channel/` evidence map.
-- [ ] Review at least one arXiv or academic method reference.
-- [ ] Review at least one GitHub/Codex/plugin structure reference.
+- [x] Find one Channel Talk official source.
+- [x] Find one trustworthy support/CX/e-commerce source.
+- [x] Create `channel/` evidence map.
+- [x] Review at least one arXiv or academic method reference.
+- [x] Review at least one GitHub/Codex/plugin structure reference.
 - [ ] Define problem, user, situation, and why selected.
 - [ ] Define one core workflow with input, output, sample prompt, and expected output.
 - [ ] Design and implement `channel/src/.codex-plugin/plugin.json`.
@@ -49,15 +49,15 @@
 
 ## 3. Musinsa
 
-- [ ] Read `musinsa/brief.md` in the Musinsa session.
-- [ ] Confirm the Musinsa session working root is `musinsa/`.
-- [ ] Confirm `musinsa/logs/codex/` receives the Musinsa session log.
+- [x] Read `musinsa/brief.md` in the Musinsa session.
+- [x] Confirm the Musinsa session working root is `musinsa/`.
+- [x] Confirm `musinsa/logs/codex/` receives the Musinsa session log.
 - [ ] Analyze <https://www.youtube.com/watch?v=OLAWeIuiD5Y>.
-- [ ] Find one Musinsa official source.
-- [ ] Find one trustworthy fashion commerce/data/recommendation source.
-- [ ] Create `musinsa/` evidence map.
-- [ ] Review at least one arXiv or academic method reference.
-- [ ] Review at least one GitHub/Codex/plugin structure reference.
+- [x] Find one Musinsa official source.
+- [x] Find one trustworthy fashion commerce/data/recommendation source.
+- [x] Create `musinsa/` evidence map.
+- [x] Review at least one arXiv or academic method reference.
+- [x] Review at least one GitHub/Codex/plugin structure reference.
 - [ ] Define problem, user, situation, and why selected.
 - [ ] Define one core workflow with input, output, sample prompt, and expected output.
 - [ ] Design and implement `musinsa/src/.codex-plugin/plugin.json`.
@@ -68,15 +68,15 @@
 
 ## 4. Kakao Pay Securities
 
-- [ ] Read `kakaopay/brief.md` in the Kakao Pay Securities session.
-- [ ] Confirm the Kakao Pay Securities session working root is `kakaopay/`.
-- [ ] Confirm `kakaopay/logs/codex/` receives the Kakao Pay Securities session log.
+- [x] Read `kakaopay/brief.md` in the Kakao Pay Securities session.
+- [x] Confirm the Kakao Pay Securities session working root is `kakaopay/`.
+- [x] Confirm `kakaopay/logs/codex/` receives the Kakao Pay Securities session log.
 - [ ] Analyze <https://www.youtube.com/watch?v=aBuoojGjyf4>.
-- [ ] Find one Kakao Pay Securities official source.
-- [ ] Find one trustworthy investor education/risk disclosure source.
-- [ ] Create `kakaopay/` evidence map.
-- [ ] Review at least one arXiv or academic method reference.
-- [ ] Review at least one GitHub/Codex/plugin structure reference.
+- [x] Find one Kakao Pay Securities official source.
+- [x] Find one trustworthy investor education/risk disclosure source.
+- [x] Create `kakaopay/` evidence map.
+- [x] Review at least one arXiv or academic method reference.
+- [x] Review at least one GitHub/Codex/plugin structure reference.
 - [ ] Define problem, user, situation, and why selected.
 - [ ] Define one educational support workflow with input, output, sample prompt, and expected output.
 - [ ] Exclude buy/sell/hold recommendations, target prices, timing, and personalized allocation.

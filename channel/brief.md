@@ -8,7 +8,7 @@ Build one independent Codex plugin submission for Channel Talk. The final `submi
 
 - Treat `/Users/jinlee/ax_herkerton/channel` as the only project root.
 - Do not edit `musinsa/`, `kakaopay/`, or root planning files.
-- Before research or implementation, verify `channel/.codex/hooks.json`, `channel/log-hooks/tools/save_log.py`, and `channel/logs/codex/`.
+- Before research or implementation, verify `.codex/hooks.json`, `log-hooks/tools/save_log.py`, and `logs/codex/`.
 - If logs are missing, mixed, copied, filtered, or written outside `channel/`, stop and report the failure.
 
 ## Working Context

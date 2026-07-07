@@ -3,28 +3,28 @@
 ## 0. Baseline
 
 - [x] Treat `kakaopay/` as the Kakao Pay Securities project root.
-- [x] Confirm `kakaopay/.codex/hooks.json` is active for new work.
-- [x] Confirm logs are copied verbatim to `kakaopay/logs/`.
-- [ ] Read `kakaopay/brief.md`.
-- [ ] Confirm the active session working root is `kakaopay/`.
-- [ ] Confirm root orchestration logs are not copied into `kakaopay/logs/`.
+- [x] Confirm `.codex/hooks.json` is active for new work.
+- [x] Confirm logs are copied verbatim to `logs/`.
+- [x] Read `brief.md`.
+- [x] Confirm the active session working root is `kakaopay/`.
+- [x] Confirm root orchestration logs are not copied into `logs/`.
 - [ ] Stop if logs are filtered, missing, or written elsewhere.
 - [ ] Exclude any failed, unlogged, mixed, or wrong-folder session from submission logs.
-- [ ] Keep all outputs educational and support-oriented.
+- [x] Keep all outputs educational and support-oriented.
 
 ## 1. Research
 
 - [ ] Analyze <https://www.youtube.com/watch?v=aBuoojGjyf4>.
-- [ ] Find one Kakao Pay Securities official source about beginner investing, investor education, AI support, product explanation, or customer support.
-- [ ] Find one trustworthy supporting source about investor education, financial consumer understanding, explainable finance AI, or risk disclosure.
-- [ ] Review one arXiv or academic method reference.
-- [ ] Review one GitHub/Codex/plugin structure reference.
-- [ ] Create an evidence map with claim, source, reliability tier, and plugin implication.
+- [x] Find one Kakao Pay Securities official source about beginner investing, investor education, AI support, product explanation, or customer support.
+- [x] Find one trustworthy supporting source about investor education, financial consumer understanding, explainable finance AI, or risk disclosure.
+- [x] Review one arXiv or academic method reference.
+- [x] Review one GitHub/Codex/plugin structure reference.
+- [x] Create an evidence map with claim, source, reliability tier, and plugin implication.
 
 ## 2. Problem And Plugin
 
-- [ ] Define the target user.
-- [ ] Define the beginner-investor explanation situation and public evidence.
+- [x] Define the target user.
+- [x] Define the beginner-investor explanation situation and public evidence.
 - [ ] Write the problem statement and why it was selected.
 - [ ] Define one core workflow: public investment/product/research text to plain-language explanation, risk checklist, uncertainty notes, and support-answer draft.
 - [ ] Exclude buy/sell/hold recommendations, target prices, timing, and personalized allocation.

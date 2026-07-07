@@ -3,22 +3,22 @@
 ## 0. Baseline
 
 - [x] Treat `musinsa/` as the Musinsa project root.
-- [x] Confirm `musinsa/.codex/hooks.json` is active for new work.
-- [x] Confirm logs are copied verbatim to `musinsa/logs/`.
-- [ ] Read `musinsa/brief.md`.
-- [ ] Confirm the active session working root is `musinsa/`.
-- [ ] Confirm root orchestration logs are not copied into `musinsa/logs/`.
+- [x] Confirm `.codex/hooks.json` is active for new work.
+- [x] Confirm logs are copied verbatim to `logs/`.
+- [x] Read `brief.md`.
+- [x] Confirm the active session working root is `musinsa/`.
+- [x] Confirm root orchestration logs are not copied into `logs/`.
 - [ ] Stop if logs are filtered, missing, or written elsewhere.
 - [ ] Exclude any failed, unlogged, mixed, or wrong-folder session from submission logs.
 
 ## 1. Research
 
 - [ ] Analyze <https://www.youtube.com/watch?v=OLAWeIuiD5Y>.
-- [ ] Find one Musinsa official source about platform strategy, brands, data, AI, search, or recommendation.
-- [ ] Find one trustworthy supporting source about fashion commerce, trend detection, recommendation, or data integration.
-- [ ] Review one arXiv or academic method reference.
-- [ ] Review one GitHub/Codex/plugin structure reference.
-- [ ] Create an evidence map with claim, source, reliability tier, and plugin implication.
+- [x] Find one Musinsa official source about platform strategy, brands, data, AI, search, or recommendation.
+- [x] Find one trustworthy supporting source about fashion commerce, trend detection, recommendation, or data integration.
+- [x] Review one arXiv or academic method reference.
+- [x] Review one GitHub/Codex/plugin structure reference.
+- [x] Create an evidence map with claim, source, reliability tier, and plugin implication.
 
 ## 2. Problem And Plugin
 

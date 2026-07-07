@@ -1,5 +1,7 @@
 # Kakao Pay Securities Agent Rules
 
+All relative paths in this file are relative to `kakaopay/`.
+
 ## Project Boundary
 
 - Treat `kakaopay/` as the project root for the Kakao Pay Securities submission.
@@ -8,20 +10,20 @@
 
 ## Workflow
 
-- Use `kakaopay/checklist.md` as the task checklist.
-- Read `kakaopay/brief.md` before research, design, or implementation.
+- Use `checklist.md` as the task checklist.
+- Read `brief.md` before research, design, or implementation.
 - Solve one public, verifiable Kakao Pay Securities problem with one narrow Codex plugin workflow.
 - Keep research notes, evidence maps, README content, plugin behavior, logs, and final answers consistent.
 
 ## Submission Layout
 
-- Prepare the final `kakaopay/submission.zip` so its zip root contains:
+- Prepare the final `submission.zip` so its zip root contains:
   - `src/`
   - `README.md`
   - `logs/`
-- Put plugin source under `kakaopay/src/`.
-- `kakaopay/src/.codex-plugin/plugin.json` is required.
-- Prefer one skill at `kakaopay/src/skills/<name>/SKILL.md`.
+- Put plugin source under `src/`.
+- `src/.codex-plugin/plugin.json` is required.
+- Prefer one skill at `src/skills/<name>/SKILL.md`.
 
 ## Evidence And References
 
@@ -38,11 +40,11 @@
 
 ## Logging
 
-- Use `kakaopay/.codex/hooks.json` as the active Codex hook entrypoint.
-- Keep the hook script under `kakaopay/log-hooks/`.
+- Use `.codex/hooks.json` as the active Codex hook entrypoint.
+- Keep the hook script under `log-hooks/`.
 - Prove the active working root is `kakaopay/` before company work starts.
-- Before substantial work starts, verify logs are written to `kakaopay/logs/`.
+- Before substantial work starts, verify logs are written to `logs/`.
 - Submitted logs must be original and unedited.
 - Do not copy logs from another company folder.
-- Do not copy root orchestration logs into `kakaopay/logs/`.
+- Do not copy root orchestration logs into `logs/`.
 - Stop and restart from a clean Kakao Pay Securities session if logs are missing, mixed, copied, filtered, or written outside `kakaopay/`.

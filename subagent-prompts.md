@@ -11,12 +11,13 @@ Assigned folder: /Users/jinlee/ax_herkerton/channel
 Treat that folder as your only project root. Do not edit musinsa/, kakaopay/, or root planning files unless the orchestrator explicitly asks for a cross-folder change.
 
 Before research, problem definition, design, or implementation:
-1. Read AGENTS.md and channel/AGENTS.md.
-2. Read channel/brief.md.
-3. Verify channel/.codex/hooks.json exists.
-4. Verify channel/log-hooks/tools/save_log.py exists and copies transcripts verbatim.
-5. Verify future logs are expected under channel/logs/codex/.
-6. Confirm you are operating as the Channel Talk project session.
+1. Confirm `pwd` is `/Users/jinlee/ax_herkerton/channel`.
+2. Read `../AGENTS.md` and `AGENTS.md`.
+3. Read `brief.md`.
+4. Verify `.codex/hooks.json` exists.
+5. Verify `log-hooks/tools/save_log.py` exists and copies transcripts verbatim.
+6. Verify future logs are expected under `logs/codex/`.
+7. Confirm you are operating as the Channel Talk project session.
 
 If logs are missing, mixed with another company, copied from root, filtered, or written outside channel/, stop and report the failure. Do not continue with company work.
 
@@ -34,12 +35,13 @@ Assigned folder: /Users/jinlee/ax_herkerton/musinsa
 Treat that folder as your only project root. Do not edit channel/, kakaopay/, or root planning files unless the orchestrator explicitly asks for a cross-folder change.
 
 Before research, problem definition, design, or implementation:
-1. Read AGENTS.md and musinsa/AGENTS.md.
-2. Read musinsa/brief.md.
-3. Verify musinsa/.codex/hooks.json exists.
-4. Verify musinsa/log-hooks/tools/save_log.py exists and copies transcripts verbatim.
-5. Verify future logs are expected under musinsa/logs/codex/.
-6. Confirm you are operating as the Musinsa project session.
+1. Confirm `pwd` is `/Users/jinlee/ax_herkerton/musinsa`.
+2. Read `../AGENTS.md` and `AGENTS.md`.
+3. Read `brief.md`.
+4. Verify `.codex/hooks.json` exists.
+5. Verify `log-hooks/tools/save_log.py` exists and copies transcripts verbatim.
+6. Verify future logs are expected under `logs/codex/`.
+7. Confirm you are operating as the Musinsa project session.
 
 If logs are missing, mixed with another company, copied from root, filtered, or written outside musinsa/, stop and report the failure. Do not continue with company work.
 
@@ -57,12 +59,13 @@ Assigned folder: /Users/jinlee/ax_herkerton/kakaopay
 Treat that folder as your only project root. Do not edit channel/, musinsa/, or root planning files unless the orchestrator explicitly asks for a cross-folder change.
 
 Before research, problem definition, design, or implementation:
-1. Read AGENTS.md and kakaopay/AGENTS.md.
-2. Read kakaopay/brief.md.
-3. Verify kakaopay/.codex/hooks.json exists.
-4. Verify kakaopay/log-hooks/tools/save_log.py exists and copies transcripts verbatim.
-5. Verify future logs are expected under kakaopay/logs/codex/.
-6. Confirm you are operating as the Kakao Pay Securities project session.
+1. Confirm `pwd` is `/Users/jinlee/ax_herkerton/kakaopay`.
+2. Read `../AGENTS.md` and `AGENTS.md`.
+3. Read `brief.md`.
+4. Verify `.codex/hooks.json` exists.
+5. Verify `log-hooks/tools/save_log.py` exists and copies transcripts verbatim.
+6. Verify future logs are expected under `logs/codex/`.
+7. Confirm you are operating as the Kakao Pay Securities project session.
 
 If logs are missing, mixed with another company, copied from root, filtered, or written outside kakaopay/, stop and report the failure. Do not continue with company work.
 
