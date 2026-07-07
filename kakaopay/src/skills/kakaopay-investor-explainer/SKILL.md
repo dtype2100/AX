@@ -1,11 +1,11 @@
 ---
 name: kakaopay-investor-explainer
-description: Convert public investment, product, research, disclosure, FAQ, or support text into beginner-friendly educational explanations for Kakao Pay Securities support, education, content, and research-support operators. Use when the user needs plain-language explanation, key terms, risk checklist, uncertainty notes, or a source-grounded support draft, while avoiding buy/sell/hold advice, target prices, market timing, or personalized allocation.
+description: Convert public investment notices, product text, research, disclosure, FAQ, or support text into beginner-friendly educational explanations for Kakao Pay Securities customer-support knowledge/content operators. Use when the user needs plain-language explanation, key terms, risk checklist, uncertainty notes, or a source-grounded support draft, while avoiding buy/sell/hold advice, target prices, market timing, or personalized allocation.
 ---
 
 # Kakao Pay Investor Explainer
 
-Use this skill only with public, user-provided source text or public URLs the user asks you to inspect. Keep the output educational, source-grounded, and suitable for operator review.
+Use this skill only with public, user-provided source text or public URLs the user asks you to inspect. Keep the output educational, source-grounded, and suitable for Kakao Pay Securities customer-support knowledge/content operator review. Never provide buy, sell, hold, target-price, market-timing, or personalized-allocation advice.
 
 ## Refuse Or Redirect
 

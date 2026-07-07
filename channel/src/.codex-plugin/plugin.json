@@ -1,7 +1,7 @@
 {
   "name": "channel-alf-planner",
   "version": "0.1.0",
-  "description": "Plan Channel Talk ALF setup from FAQ, policy, support notes, and anonymized inquiry samples.",
+  "description": "Plan Channel Talk ALF rollout for an e-commerce CX operations manager from support-policy text.",
   "author": {
     "name": "AX Herkerton Channel Talk Subagent"
   },
@@ -16,7 +16,7 @@
   "interface": {
     "displayName": "Channel ALF Planner",
     "shortDescription": "Turn support notes into a Channel Talk ALF setup plan.",
-    "longDescription": "Helps e-commerce CX leads convert pasted FAQ, policy, support notes, and optional anonymized inquiries into inquiry taxonomy, FAQ gaps, ALF Rule candidates, ALF Task candidates, answer-quality risks, escalation triggers, and next setup actions.",
+    "longDescription": "Helps an e-commerce CX operations manager convert pasted FAQ, policy, support notes, and optional anonymized inquiries into inquiry taxonomy, FAQ gaps, ALF Rule candidates, ALF Task candidates, answer-quality risks, escalation triggers, and next setup actions before Channel Talk ALF rollout.",
     "developerName": "AX Herkerton",
     "category": "Productivity",
     "capabilities": [

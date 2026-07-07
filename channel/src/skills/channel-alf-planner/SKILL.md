@@ -1,13 +1,13 @@
 ---
 name: channel-alf-planner
-description: Use when planning Channel Talk ALF setup for an e-commerce support team from pasted FAQ pages, policy text, support macros, product notes, and optional anonymized customer inquiries. Produces inquiry taxonomy, FAQ gaps, ALF Rule candidates, ALF Task candidates, answer-quality risks, escalation triggers, and next Channel Talk setup actions.
+description: Use when an e-commerce CX operations manager is planning Channel Talk ALF rollout from pasted FAQ pages, policy text, support macros, product notes, and optional anonymized customer inquiries. Produces inquiry taxonomy, FAQ gaps, ALF Rule candidates, ALF Task candidates, answer-quality risks, escalation triggers, and next Channel Talk setup actions.
 ---
 
 # Channel ALF Planner
 
 ## Inputs
 
-Ask for pasted source text when it is missing. Accept any mix of:
+Assume the user is an e-commerce CX operations manager preparing Channel Talk ALF rollout. Ask for pasted source text when it is missing. Accept any mix of:
 
 - FAQ, policy, shipping, return, refund, product, membership, or payment notes.
 - Support macros or agent notes.

@@ -1,7 +1,7 @@
 {
   "name": "musinsa-md-brief",
   "version": "0.1.0",
-  "description": "Turns Musinsa fashion commerce snippets into a concise merchandising decision brief.",
+  "description": "Turns trend-sensitive category merchandising snippets into a concise Musinsa MD decision brief.",
   "author": {
     "name": "Musinsa submission team"
   },
@@ -14,17 +14,17 @@
   "skills": "./skills/",
   "interface": {
     "displayName": "Musinsa MD Brief",
-    "shortDescription": "Structure brand, product, trend, and metric snippets into MD decisions.",
-    "longDescription": "A skill-only Codex plugin for fashion MDs, brand operators, and platform strategy teams who need to turn partial commerce signals into facts, questions, hypotheses, options, risks, and verification checks.",
+    "shortDescription": "Structure category trend and metric snippets into MD decisions.",
+    "longDescription": "A skill-only Codex plugin for a Musinsa category MD responsible for trend-sensitive merchandising decisions. It turns partial commerce signals into facts, questions, hypotheses, options, risks, and verification checks.",
     "developerName": "Musinsa submission team",
     "category": "Productivity",
     "capabilities": [
       "Generate"
     ],
     "defaultPrompt": [
-      "Create a Musinsa MD brief from these trend snippets.",
+      "Create a Musinsa category MD brief from these trend snippets.",
       "Turn these product metrics into MD decision options.",
-      "Find missing inputs and brand risks for this campaign."
+      "Find missing inputs and brand risks for this category campaign."
     ],
     "brandColor": "#111111"
   }
