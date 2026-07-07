@@ -5,7 +5,11 @@
 - [x] Treat `kakaopay/` as the Kakao Pay Securities project root.
 - [x] Confirm `kakaopay/.codex/hooks.json` is active for new work.
 - [x] Confirm logs are copied verbatim to `kakaopay/logs/`.
+- [ ] Read `kakaopay/brief.md`.
+- [ ] Confirm the active session working root is `kakaopay/`.
+- [ ] Confirm root orchestration logs are not copied into `kakaopay/logs/`.
 - [ ] Stop if logs are filtered, missing, or written elsewhere.
+- [ ] Exclude any failed, unlogged, mixed, or wrong-folder session from submission logs.
 - [ ] Keep all outputs educational and support-oriented.
 
 ## 1. Research

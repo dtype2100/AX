@@ -5,7 +5,11 @@
 - [x] Treat `channel/` as the Channel Talk project root.
 - [x] Confirm `channel/.codex/hooks.json` is active for new work.
 - [x] Confirm logs are copied verbatim to `channel/logs/`.
+- [ ] Read `channel/brief.md`.
+- [ ] Confirm the active session working root is `channel/`.
+- [ ] Confirm root orchestration logs are not copied into `channel/logs/`.
 - [ ] Stop if logs are filtered, missing, or written elsewhere.
+- [ ] Exclude any failed, unlogged, mixed, or wrong-folder session from submission logs.
 
 ## 1. Research
 

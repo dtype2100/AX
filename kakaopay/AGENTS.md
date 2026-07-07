@@ -9,6 +9,7 @@
 ## Workflow
 
 - Use `kakaopay/checklist.md` as the task checklist.
+- Read `kakaopay/brief.md` before research, design, or implementation.
 - Solve one public, verifiable Kakao Pay Securities problem with one narrow Codex plugin workflow.
 - Keep research notes, evidence maps, README content, plugin behavior, logs, and final answers consistent.
 
@@ -39,6 +40,9 @@
 
 - Use `kakaopay/.codex/hooks.json` as the active Codex hook entrypoint.
 - Keep the hook script under `kakaopay/log-hooks/`.
+- Prove the active working root is `kakaopay/` before company work starts.
 - Before substantial work starts, verify logs are written to `kakaopay/logs/`.
 - Submitted logs must be original and unedited.
 - Do not copy logs from another company folder.
+- Do not copy root orchestration logs into `kakaopay/logs/`.
+- Stop and restart from a clean Kakao Pay Securities session if logs are missing, mixed, copied, filtered, or written outside `kakaopay/`.

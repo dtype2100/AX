@@ -9,6 +9,7 @@
 ## Workflow
 
 - Use `channel/checklist.md` as the task checklist.
+- Read `channel/brief.md` before research, design, or implementation.
 - Solve one public, verifiable Channel Talk problem with one narrow Codex plugin workflow.
 - Keep research notes, evidence maps, README content, plugin behavior, logs, and final answers consistent.
 
@@ -33,6 +34,9 @@
 
 - Use `channel/.codex/hooks.json` as the active Codex hook entrypoint.
 - Keep the hook script under `channel/log-hooks/`.
+- Prove the active working root is `channel/` before company work starts.
 - Before substantial work starts, verify logs are written to `channel/logs/`.
 - Submitted logs must be original and unedited.
 - Do not copy logs from another company folder.
+- Do not copy root orchestration logs into `channel/logs/`.
+- Stop and restart from a clean Channel Talk session if logs are missing, mixed, copied, filtered, or written outside `channel/`.

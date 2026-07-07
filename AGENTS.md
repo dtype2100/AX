@@ -52,6 +52,22 @@ submission.zip
 - Each subagent should treat its assigned folder as an independent project root.
 - Subagents must stay within their assigned folder unless the orchestrator explicitly coordinates a cross-folder change.
 - Subagents must use only their assigned folder's `.codex/hooks.json` and `log-hooks/` setup for logging.
+- The orchestrator must pass root-level decisions into each company subagent's first message instead of copying root logs into company logs.
+- Use `subagent-prompts.md` as the canonical first-message template for company subagents.
+- A subagent session counts as company submission work only after it proves it is operating from the assigned company folder and can write logs there.
+- If the subagent tool cannot prove the assigned folder is the active working root, use a separate Codex session/thread/window started from that company folder before doing company-specific work.
+
+## Subagent Launch Template
+
+Each company subagent must receive a first message with these facts:
+
+- Assigned company and folder.
+- Absolute working root path.
+- Folder-only edit boundary.
+- The matching `brief.md` file to read first.
+- The requirement to verify `.codex/hooks.json`, `log-hooks/tools/save_log.py`, and `logs/codex/` before research or implementation.
+- Failure policy: stop if logs are missing, filtered, mixed, copied, or written outside the assigned folder.
+- Reporting format: changed files, evidence used, verification performed, and unresolved risks.
 
 ## Logging Hooks
 
@@ -74,7 +90,18 @@ submission.zip
 - Preserve AI conversation logs exactly as required for submission.
 - Do not edit, excerpt, delete, rewrite, or post-process submitted logs after the fact.
 - Do not copy logs between work folders.
+- Do not copy root orchestration logs into company submission logs.
+- Do not use a failed, unlogged, mixed, or wrong-folder session as a submitted company log.
 - Do not paste API keys, passwords, tokens, or other secrets into chats because logs are submitted as-is.
+
+## Failure Policy
+
+- If logs are not created, stop the company work immediately and restart from a correctly configured folder session.
+- If logs are written to the wrong folder, do not submit those logs and restart from the correct folder.
+- If one session mixes multiple companies, exclude that session from company submission logs and redo the affected work in separate folder sessions.
+- If a secret, token, password, or private company information enters a log, treat the session as unsafe for submission and redo the work without editing the log.
+- If public evidence cannot be found for a problem claim, do not finalize that problem definition.
+- If a plugin does not run as a Codex plugin, do not create `submission.zip`; reduce to the simplest working skill-based plugin first.
 
 ## Evidence Rules
 

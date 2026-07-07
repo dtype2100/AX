@@ -17,6 +17,9 @@
 - Hook scripts live under each folder's `log-hooks/tools/save_log.py`.
 - Submitted logs must be copied verbatim from the Codex transcript.
 - Automatic capture happens when Codex runs in the company folder, loads that folder's `.codex/hooks.json`, and the hook is trusted/approved.
+- Root orchestration logs must not be copied into company logs.
+- Company decisions must be repeated as first-message instructions inside the relevant company subagent/session.
+- If the subagent execution tool cannot prove the company folder is the active working root, use a separate company-folder Codex session before doing company work.
 - Do not start substantive company research or implementation until each folder proves logs are written to its own `logs/` directory.
 - Root `AGENTS.md` and folder `AGENTS.md` files define durable operating rules. Planning/checklist docs may be regenerated after hook setup.
 
@@ -85,22 +88,33 @@ Each README must answer:
 
 Use a stage-by-company matrix:
 
-1. Verify hooks and original log capture.
-2. Analyze the video.
-3. Search trusted public sources.
-4. Classify reliability and build evidence map.
-5. Review arXiv/papers for methods.
-6. Review GitHub/Codex/plugin examples for structure.
-7. Define problem statement.
-8. Define one core workflow.
-9. Design plugin, README, verification, and package layout.
-10. Implement in the company folder only.
-11. Verify behavior, evidence consistency, logs, and `submission.zip`.
+1. Prepare the company subagent first message from the folder `brief.md`.
+2. Verify the session working root, hooks, and original log capture.
+3. Analyze the video inside the company session.
+4. Search trusted public sources.
+5. Classify reliability and build evidence map.
+6. Review arXiv/papers for methods.
+7. Review GitHub/Codex/plugin examples for structure.
+8. Define problem statement.
+9. Define one core workflow.
+10. Design plugin, README, verification, and package layout.
+11. Implement in the company folder only.
+12. Verify behavior, evidence consistency, logs, and `submission.zip`.
 
 ## Verification Gates
 
 - Hook gate: `logs/codex/<session_id>.jsonl` appears in the correct company folder and matches the source transcript verbatim.
+- CWD gate: the company session proves it is operating from the assigned folder before company work starts.
 - Evidence gate: every core problem claim has official or trustworthy support.
 - Safety gate: `kakaopay/` never gives investment advice.
 - Plugin gate: `plugin.json`, one working skill, README, logs, and sample verification all exist.
 - Packaging gate: zip root contains `src/`, `README.md`, and `logs/`, not the company folder itself.
+
+## Failure Response
+
+- Missing logs: stop, exclude the session from submission, fix launch/root setup, and restart.
+- Wrong-folder logs: do not move or reuse them; restart from the correct folder.
+- Mixed-company logs: exclude and redo affected work in separate sessions.
+- Secret/private data in logs: do not edit the log; mark it unsafe and redo the work cleanly.
+- Weak evidence: keep the work in research status until public evidence supports the problem claim.
+- Broken plugin: package nothing until the simplest skill-based plugin runs.

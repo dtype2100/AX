@@ -20,6 +20,9 @@
 - [ ] Review installed marketplace plugin examples for manifest and skill layout.
 - [ ] Search GitHub for relevant Codex plugin, skill, and MCP examples.
 - [ ] Record references and license notes.
+- [x] Confirm root orchestration logs will not be copied into company logs.
+- [x] Prepare the fixed first-message template for company subagents in `subagent-prompts.md`.
+- [x] Confirm the fallback rule: if a subagent cannot prove the assigned folder is its working root, restart in a company-folder Codex session.
 - [ ] Identify arXiv search terms:
   - Channel Talk: RAG customer support, conversational agent evaluation, support automation.
   - Musinsa: fashion recommendation, multimodal product understanding, trend detection.
@@ -27,6 +30,9 @@
 
 ## 2. Channel Talk
 
+- [ ] Read `channel/brief.md` in the Channel Talk session.
+- [ ] Confirm the Channel Talk session working root is `channel/`.
+- [ ] Confirm `channel/logs/codex/` receives the Channel Talk session log.
 - [ ] Analyze <https://www.youtube.com/watch?v=5iRf37Z8Wd4>.
 - [ ] Find one Channel Talk official source.
 - [ ] Find one trustworthy support/CX/e-commerce source.
@@ -43,6 +49,9 @@
 
 ## 3. Musinsa
 
+- [ ] Read `musinsa/brief.md` in the Musinsa session.
+- [ ] Confirm the Musinsa session working root is `musinsa/`.
+- [ ] Confirm `musinsa/logs/codex/` receives the Musinsa session log.
 - [ ] Analyze <https://www.youtube.com/watch?v=OLAWeIuiD5Y>.
 - [ ] Find one Musinsa official source.
 - [ ] Find one trustworthy fashion commerce/data/recommendation source.
@@ -59,6 +68,9 @@
 
 ## 4. Kakao Pay Securities
 
+- [ ] Read `kakaopay/brief.md` in the Kakao Pay Securities session.
+- [ ] Confirm the Kakao Pay Securities session working root is `kakaopay/`.
+- [ ] Confirm `kakaopay/logs/codex/` receives the Kakao Pay Securities session log.
 - [ ] Analyze <https://www.youtube.com/watch?v=aBuoojGjyf4>.
 - [ ] Find one Kakao Pay Securities official source.
 - [ ] Find one trustworthy investor education/risk disclosure source.
@@ -78,6 +90,8 @@
 
 - [ ] Confirm every company has a separate plugin and `submission.zip`.
 - [ ] Confirm no logs are copied between company folders.
+- [ ] Confirm root orchestration logs are not copied into company logs.
+- [ ] Confirm failed, unlogged, mixed, or wrong-folder sessions are excluded from submitted logs.
 - [ ] Confirm logs are original and unedited.
 - [ ] Confirm every README answers the five required questions.
 - [ ] Confirm every problem definition has trusted public evidence.

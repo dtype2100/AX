@@ -5,7 +5,11 @@
 - [x] Treat `musinsa/` as the Musinsa project root.
 - [x] Confirm `musinsa/.codex/hooks.json` is active for new work.
 - [x] Confirm logs are copied verbatim to `musinsa/logs/`.
+- [ ] Read `musinsa/brief.md`.
+- [ ] Confirm the active session working root is `musinsa/`.
+- [ ] Confirm root orchestration logs are not copied into `musinsa/logs/`.
 - [ ] Stop if logs are filtered, missing, or written elsewhere.
+- [ ] Exclude any failed, unlogged, mixed, or wrong-folder session from submission logs.
 
 ## 1. Research
 
