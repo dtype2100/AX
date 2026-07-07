@@ -8,8 +8,8 @@
 - [x] Read `brief.md`.
 - [x] Confirm the active session working root is `kakaopay/`.
 - [x] Confirm root orchestration logs are not copied into `logs/`.
-- [ ] Stop if logs are filtered, missing, or written elsewhere.
-- [ ] Exclude any failed, unlogged, mixed, or wrong-folder session from submission logs.
+- [x] Stop if logs are filtered, missing, or written elsewhere.
+- [x] Exclude any failed, unlogged, mixed, or wrong-folder session from submission logs.
 - [x] Keep all outputs educational and support-oriented.
 
 ## 1. Research
@@ -38,4 +38,4 @@
 - [x] Verify the skill with sample finance explanation inputs.
 - [x] Verify outputs avoid investment advice and include risks/uncertainty.
 - [x] Verify README, evidence, behavior, and logs are consistent.
-- [ ] Package `kakaopay/submission.zip` with `src/`, `README.md`, and `logs/` at zip root.
+- [x] Package `kakaopay/submission.zip` with `src/`, `README.md`, and `logs/` at zip root.

@@ -12,18 +12,18 @@
 - [x] Verify `channel/` work writes to `channel/logs/`.
 - [x] Verify `musinsa/` work writes to `musinsa/logs/`.
 - [x] Verify `kakaopay/` work writes to `kakaopay/logs/`.
-- [ ] Stop project work if logs are filtered, missing, or written to another folder.
+- [x] Stop project work if logs are filtered, missing, or written to another folder.
 
 ## 1. Shared Research And Reference Setup
 
-- [ ] Review Codex plugin and skill docs.
-- [ ] Review installed marketplace plugin examples for manifest and skill layout.
-- [ ] Search GitHub for relevant Codex plugin, skill, and MCP examples.
-- [ ] Record references and license notes.
+- [x] Review Codex plugin and skill docs.
+- [x] Review installed marketplace plugin examples for manifest and skill layout.
+- [x] Search GitHub for relevant Codex plugin, skill, and MCP examples.
+- [x] Record references and license notes.
 - [x] Confirm root orchestration logs will not be copied into company logs.
 - [x] Prepare the fixed first-message template for company subagents in `subagent-prompts.md`.
 - [x] Confirm the fallback rule: if a subagent cannot prove the assigned folder is its working root, restart in a company-folder Codex session.
-- [ ] Identify arXiv search terms:
+- [x] Identify arXiv search terms:
   - Channel Talk: RAG customer support, conversational agent evaluation, support automation.
   - Musinsa: fashion recommendation, multimodal product understanding, trend detection.
   - Kakao Pay Securities: financial summarization, explainable AI, hallucination mitigation, risk disclosure.
@@ -39,13 +39,13 @@
 - [x] Create `channel/` evidence map.
 - [x] Review at least one arXiv or academic method reference.
 - [x] Review at least one GitHub/Codex/plugin structure reference.
-- [ ] Define problem, user, situation, and why selected.
-- [ ] Define one core workflow with input, output, sample prompt, and expected output.
-- [ ] Design and implement `channel/src/.codex-plugin/plugin.json`.
-- [ ] Design and implement `channel/src/skills/<name>/SKILL.md`.
-- [ ] Draft `channel/README.md` around the five required answers.
-- [ ] Verify skill output and evidence consistency.
-- [ ] Package `channel/submission.zip` with `src/`, `README.md`, and `logs/` at zip root.
+- [x] Define problem, user, situation, and why selected.
+- [x] Define one core workflow with input, output, sample prompt, and expected output.
+- [x] Design and implement `channel/src/.codex-plugin/plugin.json`.
+- [x] Design and implement `channel/src/skills/<name>/SKILL.md`.
+- [x] Draft `channel/README.md` around the five required answers.
+- [x] Verify skill output and evidence consistency.
+- [x] Package `channel/submission.zip` with `src/`, `README.md`, and `logs/` at zip root.
 
 ## 3. Musinsa
 
@@ -58,13 +58,13 @@
 - [x] Create `musinsa/` evidence map.
 - [x] Review at least one arXiv or academic method reference.
 - [x] Review at least one GitHub/Codex/plugin structure reference.
-- [ ] Define problem, user, situation, and why selected.
-- [ ] Define one core workflow with input, output, sample prompt, and expected output.
-- [ ] Design and implement `musinsa/src/.codex-plugin/plugin.json`.
-- [ ] Design and implement `musinsa/src/skills/<name>/SKILL.md`.
-- [ ] Draft `musinsa/README.md` around the five required answers.
-- [ ] Verify skill output and evidence consistency.
-- [ ] Package `musinsa/submission.zip` with `src/`, `README.md`, and `logs/` at zip root.
+- [x] Define problem, user, situation, and why selected.
+- [x] Define one core workflow with input, output, sample prompt, and expected output.
+- [x] Design and implement `musinsa/src/.codex-plugin/plugin.json`.
+- [x] Design and implement `musinsa/src/skills/<name>/SKILL.md`.
+- [x] Draft `musinsa/README.md` around the five required answers.
+- [x] Verify skill output and evidence consistency.
+- [x] Package `musinsa/submission.zip` with `src/`, `README.md`, and `logs/` at zip root.
 
 ## 4. Kakao Pay Securities
 
@@ -77,24 +77,24 @@
 - [x] Create `kakaopay/` evidence map.
 - [x] Review at least one arXiv or academic method reference.
 - [x] Review at least one GitHub/Codex/plugin structure reference.
-- [ ] Define problem, user, situation, and why selected.
-- [ ] Define one educational support workflow with input, output, sample prompt, and expected output.
-- [ ] Exclude buy/sell/hold recommendations, target prices, timing, and personalized allocation.
-- [ ] Design and implement `kakaopay/src/.codex-plugin/plugin.json`.
-- [ ] Design and implement `kakaopay/src/skills/<name>/SKILL.md`.
-- [ ] Draft `kakaopay/README.md` around the five required answers and non-investment-advice notice.
-- [ ] Verify skill output avoids investment advice and includes risks/uncertainty.
-- [ ] Package `kakaopay/submission.zip` with `src/`, `README.md`, and `logs/` at zip root.
+- [x] Define problem, user, situation, and why selected.
+- [x] Define one educational support workflow with input, output, sample prompt, and expected output.
+- [x] Exclude buy/sell/hold recommendations, target prices, timing, and personalized allocation.
+- [x] Design and implement `kakaopay/src/.codex-plugin/plugin.json`.
+- [x] Design and implement `kakaopay/src/skills/<name>/SKILL.md`.
+- [x] Draft `kakaopay/README.md` around the five required answers and non-investment-advice notice.
+- [x] Verify skill output avoids investment advice and includes risks/uncertainty.
+- [x] Package `kakaopay/submission.zip` with `src/`, `README.md`, and `logs/` at zip root.
 
 ## 5. Final Review
 
-- [ ] Confirm every company has a separate plugin and `submission.zip`.
-- [ ] Confirm no logs are copied between company folders.
-- [ ] Confirm root orchestration logs are not copied into company logs.
-- [ ] Confirm failed, unlogged, mixed, or wrong-folder sessions are excluded from submitted logs.
-- [ ] Confirm logs are original and unedited.
-- [ ] Confirm every README answers the five required questions.
-- [ ] Confirm every problem definition has trusted public evidence.
-- [ ] Confirm arXiv/GitHub/plugin references are not used as company problem proof.
-- [ ] Confirm each plugin is one narrow core workflow.
-- [ ] Confirm all zip files have required root layout.
+- [x] Confirm every company has a separate plugin and `submission.zip`.
+- [x] Confirm no logs are copied between company folders.
+- [x] Confirm root orchestration logs are not copied into company logs.
+- [x] Confirm failed, unlogged, mixed, or wrong-folder sessions are excluded from submitted logs.
+- [x] Confirm logs are original and unedited.
+- [x] Confirm every README answers the five required questions.
+- [x] Confirm every problem definition has trusted public evidence.
+- [x] Confirm arXiv/GitHub/plugin references are not used as company problem proof.
+- [x] Confirm each plugin is one narrow core workflow.
+- [x] Confirm all zip files have required root layout.

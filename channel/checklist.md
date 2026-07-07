@@ -8,8 +8,8 @@
 - [x] Read `brief.md`.
 - [x] Confirm the active session working root is `channel/`.
 - [x] Confirm root orchestration logs are not copied into `logs/`.
-- [ ] Stop if logs are filtered, missing, or written elsewhere.
-- [ ] Exclude any failed, unlogged, mixed, or wrong-folder session from submission logs.
+- [x] Stop if logs are filtered, missing, or written elsewhere.
+- [x] Exclude any failed, unlogged, mixed, or wrong-folder session from submission logs.
 
 ## 1. Research
 
@@ -35,4 +35,4 @@
 - [x] Draft `channel/README.md` with the five required answers.
 - [x] Verify the skill with sample support inputs.
 - [x] Verify README, evidence, behavior, and logs are consistent.
-- [ ] Package `channel/submission.zip` with `src/`, `README.md`, and `logs/` at zip root.
+- [x] Package `channel/submission.zip` with `src/`, `README.md`, and `logs/` at zip root.
