@@ -1,0 +1,29 @@
+{
+  "name": "kakaopay-investor-explainer",
+  "version": "0.1.0",
+  "description": "Skill-only Codex plugin for turning public investment text into beginner-friendly, non-advisory support explanations.",
+  "author": {
+    "name": "Kakao Pay Securities submission"
+  },
+  "keywords": [
+    "investor-education",
+    "finance-safety",
+    "support-draft"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Kakao Pay Investor Explainer",
+    "shortDescription": "Explain public investment text without giving advice.",
+    "longDescription": "Helps support, education, content, and research-support operators convert public investment, product, or research text into plain-language explanations, key terms, risk checks, uncertainty notes, and source-grounded support drafts while refusing investment recommendations.",
+    "developerName": "Kakao Pay Securities submission",
+    "category": "Productivity",
+    "capabilities": [
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Explain this investment text for beginners.",
+      "Draft a safe support answer from this product notice.",
+      "Extract terms, risks, and uncertainties from this research."
+    ]
+  }
+}

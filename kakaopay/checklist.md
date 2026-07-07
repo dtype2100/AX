@@ -25,17 +25,17 @@
 
 - [x] Define the target user.
 - [x] Define the beginner-investor explanation situation and public evidence.
-- [ ] Write the problem statement and why it was selected.
-- [ ] Define one core workflow: public investment/product/research text to plain-language explanation, risk checklist, uncertainty notes, and support-answer draft.
-- [ ] Exclude buy/sell/hold recommendations, target prices, timing, and personalized allocation.
-- [ ] Define plugin name, skill name, sample prompt, and expected output.
+- [x] Write the problem statement and why it was selected.
+- [x] Define one core workflow: public investment/product/research text to plain-language explanation, risk checklist, uncertainty notes, and support-answer draft.
+- [x] Exclude buy/sell/hold recommendations, target prices, timing, and personalized allocation.
+- [x] Define plugin name, skill name, sample prompt, and expected output.
 
 ## 3. Build And Verify
 
-- [ ] Create `kakaopay/src/.codex-plugin/plugin.json`.
-- [ ] Create `kakaopay/src/skills/<name>/SKILL.md`.
-- [ ] Draft `kakaopay/README.md` with the five required answers and non-investment-advice notice.
-- [ ] Verify the skill with sample finance explanation inputs.
-- [ ] Verify outputs avoid investment advice and include risks/uncertainty.
-- [ ] Verify README, evidence, behavior, and logs are consistent.
+- [x] Create `kakaopay/src/.codex-plugin/plugin.json`.
+- [x] Create `kakaopay/src/skills/<name>/SKILL.md`.
+- [x] Draft `kakaopay/README.md` with the five required answers and non-investment-advice notice.
+- [x] Verify the skill with sample finance explanation inputs.
+- [x] Verify outputs avoid investment advice and include risks/uncertainty.
+- [x] Verify README, evidence, behavior, and logs are consistent.
 - [ ] Package `kakaopay/submission.zip` with `src/`, `README.md`, and `logs/` at zip root.

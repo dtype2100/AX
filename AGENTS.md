@@ -19,6 +19,7 @@
 - Each folder must solve one public, verifiable problem for one selected company, its industry, or its customers.
 - Each folder must produce its own `submission.zip`.
 - The final zip must contain `src/`, `README.md`, and `logs/` at the zip root.
+- The final zip must exclude orchestration-only or build-only files such as `.codex/`, `log-hooks/`, `brief.md`, `research.md`, `checklist.md`, `AGENTS.md`, and `submission.zip` itself unless the assignment explicitly allows them.
 - The folder name itself, such as `channel/`, `kakaopay/`, or `musinsa/`, must not appear as the top-level directory inside `submission.zip`.
 - Keep each folder's plugin, README, logs, research notes, and answer materials consistent with each other.
 
@@ -107,8 +108,16 @@ Each company subagent must receive a first message with these facts:
 
 - Use only public, AI-verifiable sources as evidence for the selected problem.
 - Do not rely on private company information, unverifiable personal experience, or uncited numbers.
+- Treat the provided YouTube videos as project context until a transcript, official page, or otherwise verifiable public text is captured.
+- Do not make a final problem claim from a YouTube summary alone; confirm it with official company sources, trusted public sources, academic references, or relevant open-source examples.
 - Keep evidence notes close to the relevant folder's README or research materials.
 - The README and the five required answers must cite or clearly point to the same public evidence used by the plugin.
+
+## Financial Safety
+
+- In `kakaopay/`, keep the plugin educational and support-oriented.
+- Do not produce buy, sell, hold, subscribe, redeem, avoid, target-price, market-timing, guaranteed-return, tax, legal, account-specific, or personalized-allocation advice.
+- If a user asks for investment advice, refuse that part and offer plain-language explanation, risk checklist, uncertainty notes, or questions to ask a licensed professional.
 
 ## Required Five Answers
 

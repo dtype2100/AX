@@ -22,17 +22,17 @@
 
 ## 2. Problem And Plugin
 
-- [ ] Define the target user.
-- [ ] Define the support situation and public evidence.
-- [ ] Write the problem statement and why it was selected.
-- [ ] Define one core workflow: FAQ/policy/support notes to taxonomy, automation candidates, quality risks, and next actions.
-- [ ] Define plugin name, skill name, sample prompt, and expected output.
+- [x] Define the target user.
+- [x] Define the support situation and public evidence.
+- [x] Write the problem statement and why it was selected.
+- [x] Define one core workflow: FAQ/policy/support notes to taxonomy, automation candidates, quality risks, and next actions.
+- [x] Define plugin name, skill name, sample prompt, and expected output.
 
 ## 3. Build And Verify
 
-- [ ] Create `channel/src/.codex-plugin/plugin.json`.
-- [ ] Create `channel/src/skills/<name>/SKILL.md`.
-- [ ] Draft `channel/README.md` with the five required answers.
-- [ ] Verify the skill with sample support inputs.
-- [ ] Verify README, evidence, behavior, and logs are consistent.
+- [x] Create `channel/src/.codex-plugin/plugin.json`.
+- [x] Create `channel/src/skills/<name>/SKILL.md`.
+- [x] Draft `channel/README.md` with the five required answers.
+- [x] Verify the skill with sample support inputs.
+- [x] Verify README, evidence, behavior, and logs are consistent.
 - [ ] Package `channel/submission.zip` with `src/`, `README.md`, and `logs/` at zip root.
