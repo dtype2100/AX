@@ -1,5 +1,56 @@
 # Musinsa MD Brief
 
+## 심사용 빠른 요약
+
+트렌드 신호를 숫자 예측으로 과장하지 않고, MD가 확인해야 할 상업 제약으로 바꾸는 브리프 플러그인.
+
+| 항목 | 요약 |
+| --- | --- |
+| Target user | 무신사 글로벌 패션 카테고리 성장 MD |
+| Situation | 시즌 기획전, 글로벌/입점 브랜드 큐레이션, 프로모션 슬롯, SKU depth 결정을 앞둔 사전 검토 |
+| Input | 트렌드, 브랜드, 상품, 검색/거래 신호, 가격, 재고, 마진, 노출 계획 조각 |
+| Output | Facts, Missing Inputs, MD Questions, Hypotheses, Decision Options, risks, checks |
+| Public evidence | 무신사 기업 사이트, 뉴스룸의 AI 트렌드 큐레이션/상품 발견/시즌 수요 사례 |
+| Verification | 플러그인 설치, 성공/실패 샘플, 로그 보존, zip 구조 확인 |
+
+## 실제 입력 / 출력 스냅샷
+
+### Sample Input
+
+```text
+Global fashion MD brief:
+- Trend: resort shirts and raffia bags are rising for summer travel.
+- Public signal: Musinsa newsroom reported vacation item search growth and a related promotion.
+- Category: women's casual / travel styling.
+- Brands: 3 partner brands under review.
+- Constraint: margin target and SKU availability not yet confirmed.
+- Ask: should we expand the weekly global edit and promotion slots?
+```
+
+### Output Snapshot
+
+| Section | Key output |
+| --- | --- |
+| Facts | Summer travel trend and public vacation-item demand signal are stated; margin and SKU facts are not supplied. |
+| Missing Inputs | Baseline sales/search period, SKU depth, inventory by size/color, margin floor, promotion budget, brand constraints. |
+| MD Questions | Which brands can support replenishment, what slot exposure is available, and what margin tradeoff is acceptable? |
+| Hypotheses | Travel styling may lift discovery for resort-adjacent items, but conversion depends on stock and promotion terms. |
+| Decision Options | Test a narrow edit, hold for more data, or split slots between proven and exploratory brands. |
+| Business Impact | Frames upside as traffic/conversion/partner growth, without inventing revenue forecasts. |
+| Portfolio/SKU Considerations | Check size/color coverage, brand mix, hero SKU dependence, and substitute items. |
+| Pricing And Promotion Risks | Discount pressure, margin erosion, coupon overlap, and inconsistent brand positioning. |
+| Verification Checks | Confirm cited public source, internal baseline, inventory, margin, and post-campaign readout plan. |
+
+## 검증 요약
+
+| Gate | Result |
+| --- | --- |
+| Install | PASS |
+| Success sample | PASS |
+| Failure sample | PASS |
+| Logs | PASS |
+| Zip | PASS |
+
 ## 1. 플러그인은 무엇이고, 누가, 어떤 상황에서 쓰나?
 
 `musinsa-md-brief`는 무신사 글로벌 패션 카테고리 성장 MD가 트렌드, 브랜드, 상품, 시즌, SKU depth, 거래/매출, 이익률, 재고, 가격/프로모션, 고객 세그먼트, 노출 계획 조각을 받아 머천다이징 의사결정 브리프로 정리하는 skill-only Codex 플러그인입니다.

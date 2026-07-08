@@ -1,5 +1,50 @@
 # Channel ALF Planner
 
+## 심사용 빠른 요약
+
+ALF 자동화 전에, 자동화해도 되는 것과 사람에게 남겨야 하는 것을 가르는 AX 설계 플러그인.
+
+| 항목 | 내용 |
+| --- | --- |
+| Target user | Channel Talk AX Consultant |
+| Situation | 고객사의 ALF 도입 전, FAQ/정책/운영 메모를 자동화 설계안으로 정리해야 할 때 |
+| Input | 공개 FAQ, 배송/교환/환불 정책, 상담 매크로, 제품 메모, 익명화된 문의 예시 |
+| Output | 지식 준비도, 자동화 후보, 워크플로/API 핸드오프 후보, 상담원 핸드오프 노트, 출시 후 점검 항목 |
+| Public evidence | Channel Talk ALF, FAQ, Rule, Knowledge, Task 공식 문서와 Channel Talk AX Consultant 공개 채용 공고 |
+| Verification | 설치 구조, 성공 샘플, 실패 샘플, 로그 보존, 제출 zip 구조를 확인 |
+
+### 실제 입력 / 출력 스냅샷
+
+Sample Input:
+
+```text
+Shipping: Orders ship in 1-2 business days. Tracking is sent after dispatch.
+Returns: Customers may request return within 7 days if the item is unused.
+Refunds: Refund timing depends on payment provider confirmation.
+Damaged item: Ask the customer for order number and photo, then escalate to an operator.
+```
+
+Output Snapshot:
+
+| Section | Key output |
+| --- | --- |
+| Implementation Context | E-commerce support rollout before ALF setup; source is policy text only, with no internal system access assumed. |
+| Knowledge Readiness | Shipping and return basics are usable; refund timing needs safer wording because provider timing is not fixed. |
+| Response Scenario Candidates | Shipping status and basic return eligibility can be drafted from evidence; damaged-item handling needs escalation. |
+| Workflow/API Handoff Candidates | Tracking lookup and refund-status checks are planning candidates only if later connected to approved systems. |
+| Operator Handoff Notes | Escalate damaged-item claims, missing order numbers, payment-provider disputes, and unsupported exceptions. |
+| Post-Launch Review | Review unresolved refund questions, escalation rate, missing FAQ candidates, and repeated operator corrections. |
+
+### 검증 요약
+
+| Check | Result |
+| --- | --- |
+| Install | PASS |
+| Success sample | PASS |
+| Failure sample | PASS |
+| Logs | PASS |
+| Zip | PASS |
+
 Channel ALF Planner is a skill-only Codex plugin for a Channel Talk AX Consultant who is preparing a customer's ALF rollout. The customer-side stakeholder is typically an e-commerce CX operations manager who owns the source material and approves policy decisions.
 
 Situation: before ALF setup, the consultant has to turn scattered FAQ pages, shipping/return/refund policies, support macros, product notes, and optional anonymized inquiry samples into a rollout-ready planning brief.
