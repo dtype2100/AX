@@ -23,16 +23,28 @@
 ## 2. Problem And Plugin
 
 - [x] Define the target user.
+- [x] Confirm target user is Channel Talk AX Consultant, with e-commerce CX operations manager as customer-side stakeholder.
+- [x] Document role-fit rationale from hiring-site context and public product evidence.
 - [x] Define the support situation and public evidence.
 - [x] Write the problem statement and why it was selected.
 - [x] Define one core workflow: FAQ/policy/support notes to taxonomy, automation candidates, quality risks, and next actions.
 - [x] Define plugin name, skill name, sample prompt, and expected output.
+- [x] Confirm the five required answers are explicit in README.
+- [x] Confirm README includes Role Fit Matrix, Evidence Matrix, and Before / After.
 
 ## 3. Build And Verify
 
 - [x] Create `channel/src/.codex-plugin/plugin.json`.
 - [x] Create `channel/src/skills/<name>/SKILL.md`.
 - [x] Draft `channel/README.md` with the five required answers.
+- [x] Confirm skill output contract includes Implementation Context, Knowledge Readiness, Response Scenario Candidates, Workflow/API Handoff Candidates, Operator Handoff Notes, and Post-Launch Review.
+- [x] Confirm every automation candidate must state why it fits automation, what evidence is missing, and when a human should intervene.
 - [x] Verify the skill with sample support inputs.
+- [x] Verify a functional sample produces rollout-planning sections, not a PM roadmap, RAG benchmark, API implementation, or model evaluation.
+- [x] Verify failure/refusal behavior: unsupported refund approval, VIP exception handling, or unsupported delivery-date promise returns `not enough evidence` or `human review required`.
 - [x] Verify README, evidence, behavior, and logs are consistent.
+- [x] Verify `logs/` exists and submitted logs remain original and unedited.
+- [x] Verify `python3 -m json.tool src/.codex-plugin/plugin.json`.
+- [x] Verify `find src -maxdepth 4 -type f | sort`.
+- [x] Verify zip root contains `src/`, `README.md`, and `logs/`.
 - [x] Package `channel/submission.zip` with `src/`, `README.md`, and `logs/` at zip root.

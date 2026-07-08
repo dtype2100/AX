@@ -1,6 +1,6 @@
 {
   "name": "kakaopay-investor-explainer",
-  "version": "0.1.0",
+  "version": "0.1.0+codex.20260708123036",
   "description": "Skill-only Codex plugin for Kakao Pay Securities support knowledge/content operators preparing beginner investor explanations from public notices.",
   "author": {
     "name": "Kakao Pay Securities submission"

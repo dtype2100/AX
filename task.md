@@ -1,100 +1,60 @@
-# Enterprise Problem Plugin Task Checklist
+# Final Submission Alignment Task Checklist
 
-> Root rule: coordinate only. Company work belongs inside `channel/`, `musinsa/`, or `kakaopay/`.
+> Root rule: coordinate only. Company-specific edits belong in `channel/`, `musinsa/`, and `kakaopay/`.
 
-## 0. Hook And Log Baseline
+## 0. Root Coordination
 
-- [x] Confirm `channel/.codex/hooks.json` exists.
-- [x] Confirm `musinsa/.codex/hooks.json` exists.
-- [x] Confirm `kakaopay/.codex/hooks.json` exists.
-- [x] Confirm each hook calls `log-hooks/tools/save_log.py`.
-- [x] Confirm each `save_log.py` copies transcripts verbatim.
-- [x] Verify `channel/` work writes to `channel/logs/`.
-- [x] Verify `musinsa/` work writes to `musinsa/logs/`.
-- [x] Verify `kakaopay/` work writes to `kakaopay/logs/`.
-- [x] Stop project work if logs are filtered, missing, or written to another folder.
+- [x] Move work onto a non-master implementation branch.
+- [x] Replace root `plan.md` with the final integrated improvement plan.
+- [x] Keep this checklist updated as implementation proceeds.
+- [x] Review final diffs from all company folders.
+- [x] Commit and push after all verification gates pass.
 
-## 1. Shared Research And Reference Setup
+## 1. Channel Talk
 
-- [x] Review Codex plugin and skill docs.
-- [x] Review installed marketplace plugin examples for manifest and skill layout.
-- [x] Search GitHub for relevant Codex plugin, skill, and MCP examples.
-- [x] Record references and license notes.
-- [x] Confirm root orchestration logs will not be copied into company logs.
-- [x] Prepare the fixed first-message template for company subagents in `subagent-prompts.md`.
-- [x] Confirm the fallback rule: if a subagent cannot prove the assigned folder is its working root, restart in a company-folder Codex session.
-- [x] Identify arXiv search terms:
-  - Channel Talk: RAG customer support, conversational agent evaluation, support automation.
-  - Musinsa: fashion recommendation, multimodal product understanding, trend detection.
-  - Kakao Pay Securities: financial summarization, explainable AI, hallucination mitigation, risk disclosure.
+- [x] Update `channel/README.md` target user to Channel Talk AX Consultant.
+- [x] Keep customer-side CX operations manager as stakeholder, not primary plugin user.
+- [x] Add Role Fit Matrix, Evidence Matrix, and Before / After sections.
+- [x] Reflect video context: AX, AI agent, essential problem solving, talent density.
+- [x] Update `channel/src/skills/channel-alf-planner/SKILL.md` output contract.
+- [x] Include Implementation Context, Knowledge Readiness, Response Scenario Candidates, Workflow/API Handoff Candidates, Operator Handoff Notes, and Post-Launch Review.
+- [x] Add unsupported-policy failure test summary.
+- [x] Update `channel/research.md` with hiring-site role-fit rationale.
+- [x] Update `channel/checklist.md` with five-question and verification gates.
+- [x] Regenerate `channel/submission.zip`.
 
-## 2. Channel Talk
+## 2. Musinsa
 
-- [x] Read `channel/brief.md` in the Channel Talk session.
-- [x] Confirm the Channel Talk session working root is `channel/`.
-- [x] Confirm `channel/logs/codex/` receives the Channel Talk session log.
-- [x] Analyze <https://www.youtube.com/watch?v=5iRf37Z8Wd4>.
-- [x] Find one Channel Talk official source.
-- [x] Find one trustworthy support/CX/e-commerce source.
-- [x] Create `channel/` evidence map.
-- [x] Review at least one arXiv or academic method reference.
-- [x] Review at least one GitHub/Codex/plugin structure reference.
-- [x] Define problem, user, situation, and why selected.
-- [x] Define one core workflow with input, output, sample prompt, and expected output.
-- [x] Design and implement `channel/src/.codex-plugin/plugin.json`.
-- [x] Design and implement `channel/src/skills/<name>/SKILL.md`.
-- [x] Draft `channel/README.md` around the five required answers.
-- [x] Verify skill output and evidence consistency.
-- [x] Package `channel/submission.zip` with `src/`, `README.md`, and `logs/` at zip root.
+- [x] Update `musinsa/README.md` target user to global-fashion category growth MD.
+- [x] Add Role Fit Matrix, Evidence Matrix, and Before / After sections.
+- [x] Reflect video context: data fragmentation, one-core multi-platform, business impact.
+- [x] Update `musinsa/src/skills/musinsa-md-brief/SKILL.md` input expectations and output contract.
+- [x] Include category, brand, season, SKU depth, sales/transaction, profit or margin, inventory, price/promotion, customer segment, and exposure plan.
+- [x] Include Business Impact, Portfolio/SKU Considerations, and Pricing And Promotion Risks.
+- [x] Add unsupported numeric forecast failure test summary.
+- [x] Update `musinsa/research.md` with hiring-site role-fit rationale.
+- [x] Update `musinsa/checklist.md` with five-question and verification gates.
+- [x] Regenerate `musinsa/submission.zip`.
 
-## 3. Musinsa
+## 3. Kakao Pay Securities
 
-- [x] Read `musinsa/brief.md` in the Musinsa session.
-- [x] Confirm the Musinsa session working root is `musinsa/`.
-- [x] Confirm `musinsa/logs/codex/` receives the Musinsa session log.
-- [x] Analyze <https://www.youtube.com/watch?v=OLAWeIuiD5Y>.
-- [x] Find one Musinsa official source.
-- [x] Find one trustworthy fashion commerce/data/recommendation source.
-- [x] Create `musinsa/` evidence map.
-- [x] Review at least one arXiv or academic method reference.
-- [x] Review at least one GitHub/Codex/plugin structure reference.
-- [x] Define problem, user, situation, and why selected.
-- [x] Define one core workflow with input, output, sample prompt, and expected output.
-- [x] Design and implement `musinsa/src/.codex-plugin/plugin.json`.
-- [x] Design and implement `musinsa/src/skills/<name>/SKILL.md`.
-- [x] Draft `musinsa/README.md` around the five required answers.
-- [x] Verify skill output and evidence consistency.
-- [x] Package `musinsa/submission.zip` with `src/`, `README.md`, and `logs/` at zip root.
+- [x] Update `kakaopay/README.md` target user to customer-support knowledge / investor-education content operator.
+- [x] State that the target user is an inferred function, not a claimed official job title.
+- [x] Add Role Fit Matrix, Evidence Matrix, and Before / After sections.
+- [x] Reflect video context: Solver, logical explanation, user understanding.
+- [x] Update `kakaopay/src/skills/kakaopay-investor-explainer/SKILL.md` privacy guard and output contract.
+- [x] Include Fact vs Opinion, Risk Checklist, Uncertainty Notes, Human Review Required, Compliance Review Needed, and Notice.
+- [x] Add investment-advice refusal test summary.
+- [x] Update `kakaopay/research.md` with hiring-site/culture role-fit rationale.
+- [x] Update `kakaopay/checklist.md` with five-question and verification gates.
+- [x] Regenerate `kakaopay/submission.zip`.
 
-## 4. Kakao Pay Securities
+## 4. Verification Gates
 
-- [x] Read `kakaopay/brief.md` in the Kakao Pay Securities session.
-- [x] Confirm the Kakao Pay Securities session working root is `kakaopay/`.
-- [x] Confirm `kakaopay/logs/codex/` receives the Kakao Pay Securities session log.
-- [x] Analyze <https://www.youtube.com/watch?v=aBuoojGjyf4>.
-- [x] Find one Kakao Pay Securities official source.
-- [x] Find one trustworthy investor education/risk disclosure source.
-- [x] Create `kakaopay/` evidence map.
-- [x] Review at least one arXiv or academic method reference.
-- [x] Review at least one GitHub/Codex/plugin structure reference.
-- [x] Define problem, user, situation, and why selected.
-- [x] Define one educational support workflow with input, output, sample prompt, and expected output.
-- [x] Exclude buy/sell/hold recommendations, target prices, timing, and personalized allocation.
-- [x] Design and implement `kakaopay/src/.codex-plugin/plugin.json`.
-- [x] Design and implement `kakaopay/src/skills/<name>/SKILL.md`.
-- [x] Draft `kakaopay/README.md` around the five required answers and non-investment-advice notice.
-- [x] Verify skill output avoids investment advice and includes risks/uncertainty.
-- [x] Package `kakaopay/submission.zip` with `src/`, `README.md`, and `logs/` at zip root.
-
-## 5. Final Review
-
-- [x] Confirm every company has a separate plugin and `submission.zip`.
-- [x] Confirm no logs are copied between company folders.
-- [x] Confirm root orchestration logs are not copied into company logs.
-- [x] Confirm failed, unlogged, mixed, or wrong-folder sessions are excluded from submitted logs.
-- [x] Confirm logs are original and unedited.
-- [x] Confirm every README answers the five required questions.
-- [x] Confirm every problem definition has trusted public evidence.
-- [x] Confirm arXiv/GitHub/plugin references are not used as company problem proof.
-- [x] Confirm each plugin is one narrow core workflow.
-- [x] Confirm all zip files have required root layout.
+- [x] Run structure checks in all folders.
+- [x] Run plugin installation checks in all folders.
+- [x] Run functional sample checks in all folders.
+- [x] Run failure/refusal checks in all folders.
+- [x] Confirm five-question gate is all `Y`.
+- [x] Confirm logs are folder-local, original, and not mixed.
+- [x] Confirm each `submission.zip` has `src/`, `README.md`, and `logs/` at the zip root.

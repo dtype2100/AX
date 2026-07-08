@@ -1,7 +1,7 @@
 {
   "name": "channel-alf-planner",
-  "version": "0.1.0",
-  "description": "Plan Channel Talk ALF rollout for an e-commerce CX operations manager from support-policy text.",
+  "version": "0.1.0+codex.20260708123036",
+  "description": "Help a Channel Talk AX Consultant prepare a customer's ALF rollout from support-policy text.",
   "author": {
     "name": "AX Herkerton Channel Talk Subagent"
   },
@@ -15,8 +15,8 @@
   "skills": "./skills/",
   "interface": {
     "displayName": "Channel ALF Planner",
-    "shortDescription": "Turn support notes into a Channel Talk ALF setup plan.",
-    "longDescription": "Helps an e-commerce CX operations manager convert pasted FAQ, policy, support notes, and optional anonymized inquiries into inquiry taxonomy, FAQ gaps, ALF Rule candidates, ALF Task candidates, answer-quality risks, escalation triggers, and next setup actions before Channel Talk ALF rollout.",
+    "shortDescription": "Prepare a customer's Channel Talk ALF rollout plan.",
+    "longDescription": "Helps a Channel Talk AX Consultant convert a customer's pasted FAQ, policy, support notes, and optional anonymized inquiries into inquiry taxonomy, FAQ gaps, ALF Rule candidates, ALF Task candidates, answer-quality risks, escalation triggers, and next setup actions before ALF rollout. The customer-side e-commerce CX operations manager is treated as the implementation stakeholder, not the primary plugin user.",
     "developerName": "AX Herkerton",
     "category": "Productivity",
     "capabilities": [

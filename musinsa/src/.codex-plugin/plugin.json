@@ -1,7 +1,7 @@
 {
   "name": "musinsa-md-brief",
-  "version": "0.1.0",
-  "description": "Turns trend-sensitive category merchandising snippets into a concise Musinsa MD decision brief.",
+  "version": "0.1.0+codex.20260708123036",
+  "description": "Turns Musinsa global-fashion category growth snippets into a concise MD decision brief.",
   "author": {
     "name": "Musinsa submission team"
   },
@@ -14,8 +14,8 @@
   "skills": "./skills/",
   "interface": {
     "displayName": "Musinsa MD Brief",
-    "shortDescription": "Structure category trend and metric snippets into MD decisions.",
-    "longDescription": "A skill-only Codex plugin for a Musinsa category MD responsible for trend-sensitive merchandising decisions. It turns partial commerce signals into facts, questions, hypotheses, options, risks, and verification checks.",
+    "shortDescription": "Structure global-fashion category growth snippets into MD decisions.",
+    "longDescription": "A skill-only Codex plugin for a Musinsa global-fashion category growth MD responsible for trend-sensitive merchandising decisions. It turns partial commerce signals into facts, questions, hypotheses, options, risks, and verification checks.",
     "developerName": "Musinsa submission team",
     "category": "Productivity",
     "capabilities": [

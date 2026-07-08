@@ -4,13 +4,19 @@ Date: 2026-07-08
 
 ## Problem Hypothesis
 
-Musinsa's fashion commerce teams need to turn fast-moving brand, product, and trend signals into clear merchandising decisions. Public Musinsa materials show a platform built around partner-brand growth, style discovery, trend-aware curation, and AI-assisted search. The narrow plugin opportunity is not to build another recommender system, but to help an MD or strategy operator frame messy inputs into evidence-backed questions, hypotheses, options, and risks before deciding what to promote, curate, or investigate.
+Musinsa's global-fashion category growth teams need to turn fast-moving brand, product, SKU, margin, inventory, pricing, promotion, customer, and trend signals into clear merchandising decisions. Public Musinsa materials show a platform built around partner-brand growth, style discovery, trend-aware curation, and AI-assisted search. The narrow plugin opportunity is not to build another recommender system, but to help a global-fashion/category growth MD frame messy inputs into evidence-backed questions, hypotheses, options, and risks before deciding what to promote, curate, expose, or investigate.
 
 ## Target User
 
-Primary user: Musinsa fashion MD, brand operator, or platform strategy/data operator.
+Primary user: Musinsa global-fashion category growth MD.
 
-Situation: the user has partial inputs such as a category trend, search spike, brand list, season context, product notes, campaign idea, or customer segment, and needs a structured decision brief.
+Situation: the user has partial inputs such as category, brand, season, SKU depth, sales/transaction signal, profit or margin, inventory, price/promotion context, customer segment, campaign idea, or exposure plan, and needs a structured decision brief.
+
+## Hiring-Site Role-Fit Rationale
+
+Hiring-site role-fit review points to global-fashion category growth MD as the strongest current role fit because the skill asks for cross-category commercial context: category, brand, season, SKU depth, sales/transaction, profit or margin, inventory, price/promotion, customer segment, exposure plan, and partnership constraints. That maps to a category-growth workflow better than a pure recommender, data-engineering, PB-production, or single-vertical operating role.
+
+PB/women and vertical sports MD workflows remain plausible but weaker for this submission unless narrower flows are added. PB/women would need PB-specific production, pricing, sourcing, and brand-policy constraints. Sports would need sport-specific sizing, performance attributes, event calendars, and seasonal participation patterns. The current plugin should therefore stay positioned as a global-fashion/category growth MD brief tool, not a PB, women-only, sports-only, recommendation, pricing, inventory, or internal-data tool.
 
 ## Evidence Map
 
@@ -39,12 +45,14 @@ Situation: the user has partial inputs such as a category trend, search spike, b
 - URL: https://www.youtube.com/watch?v=OLAWeIuiD5Y
 - Source type: public YouTube video from 조코딩 JoCoding; provider YouTube.
 - Transcript availability: Korean auto-generated transcript fetched from public YouTube via `youtube_transcript_api` by the root orchestrator on 2026-07-08. Do not save or quote the full transcript.
-- Summary aligned to plugin problem: the video frames Musinsa as a fashion/beauty commerce platform connecting brands and customers, discusses one-core multi-platform strategy and consolidation of fragmented member, product, and data systems, and emphasizes turning broad, complex problems into clear decisions that help Musinsa discover brands customers will like.
+- Summary aligned to plugin problem: the video frames Musinsa as a fashion/beauty commerce platform connecting brands and customers, discusses one-core multi-platform strategy and consolidation of fragmented member, product, and data systems, and emphasizes turning broad, complex problems into clear business decisions.
+- Evidence weight: supporting only. Use it for data fragmentation, one-core multi-platform, and business-impact context. Hiring-site role fit and official/public Musinsa sources are stronger proof for the plugin problem.
 
 ## Open Risks
 
 - Official Musinsa newsroom claims are strong for company direction, but some are press-release claims. The README should distinguish observed public facts from plugin hypotheses.
 - No private Musinsa data is available. The plugin must work from user-supplied inputs and public evidence, not pretend to access internal metrics.
+- Numeric sales forecasts must not be invented. If internal or cited data is missing, the plugin should expose missing baseline revenue, traffic, conversion, ASP, SKU depth, price/promotion assumptions, margin, inventory, date range, and partnership constraints.
 - Avoid overbuilding: a skill-only workflow is enough for the submission unless later verification proves a script is necessary.
 
 ## Recommended Next Workflow

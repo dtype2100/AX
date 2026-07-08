@@ -24,6 +24,7 @@
 ## 2. Problem And Plugin
 
 - [x] Define the target user.
+- [x] State the target user as a customer-support knowledge / investor-education content operator and label it as an inferred function, not an official job-title claim.
 - [x] Define the beginner-investor explanation situation and public evidence.
 - [x] Write the problem statement and why it was selected.
 - [x] Define one core workflow: public investment/product/research text to plain-language explanation, risk checklist, uncertainty notes, and support-answer draft.
@@ -35,7 +36,13 @@
 - [x] Create `kakaopay/src/.codex-plugin/plugin.json`.
 - [x] Create `kakaopay/src/skills/<name>/SKILL.md`.
 - [x] Draft `kakaopay/README.md` with the five required answers and non-investment-advice notice.
+- [x] Add Role Fit Matrix, Evidence Matrix, and Before / After to README.
+- [x] Include one functional sample showing source-grounded educational output.
 - [x] Verify the skill with sample finance explanation inputs.
 - [x] Verify outputs avoid investment advice and include risks/uncertainty.
+- [x] Verify refusal coverage for buy/sell/hold, target price, timing, subscription/redemption, tax/legal, account-specific judgment, and personalized allocation.
+- [x] Verify privacy guard stops on personal information, account data, resident-registration number, salary, tokens, and secrets.
 - [x] Verify README, evidence, behavior, and logs are consistent.
+- [x] Verify `logs/` exists and preserves original folder-local conversation logs.
 - [x] Package `kakaopay/submission.zip` with `src/`, `README.md`, and `logs/` at zip root.
+- [x] Verify zip gate: zip root contains `src/`, `README.md`, and `logs/`, with no top-level `kakaopay/` directory.
